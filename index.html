@@ -1,39 +1,34 @@
 <style>
   .sammy{
-    background-color: rgb(88,233,117);
+    background-color: white;
     color: black;
-    border: none;
+    border: solid;
+    border-color: rgb(88,233,117);
+    background-color: white;
+    border-width: 1px;
     height: 50px;
     width: 325px;
     border-radius: 25px;
+    transition: background-color 0.5s, color 0.5s;
     font-size: 16;
-    transition: background-color 0.15s, border 0.15s, border-color 0.15s;
-      margin-left: 525;
-      margin-top: 300;
+    margin-left: 525;
+    margin-top: 300;
    }
    
    .sammy:hover{
-     opacity: 0.9;
+     background-color: rgb(88,233,117);
+     color: white;
    }
-   
-   .sammy:active{
-     border: solid;
-     border-color: rgb(88,233,117);
-     background-color: white;
-     border-width: 1px;
+      
    }
 </style>
 
 <script>
   function hisammy(){
-      setTimeout(function(){ 
-
-        alert('hi sammy :3');
-    }, 1000);  
-
+        alert('hi ms wadey :)');
   }
 </script>
 
 <button class="sammy" onclick="hisammy()">
-  Press if your name is Sammy Kirkland
+  Press if you are my computer science teacher
 </button>
