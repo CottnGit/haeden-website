@@ -9,6 +9,11 @@
   <body>
     <div id="board1" style="width: 400px"></div>
     <script>
+        var config = {
+        draggable: true,
+        dropOffBoard: 'snapback', // this is the default
+        position: 'start'
+        }
         var board1 = ChessBoard('board1', 'start');
     </script>
   </body>
