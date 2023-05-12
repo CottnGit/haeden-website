@@ -1,34 +1,15 @@
-<style>
-  .sammy{
-    background-color: white;
-    color: black;
-    border: solid;
-    border-color: rgb(88,233,117);
-    background-color: white;
-    border-width: 1px;
-    height: 50px;
-    width: 325px;
-    border-radius: 25px;
-    transition: background-color 0.5s, color 0.5s;
-    font-size: 16;
-    margin-left: 525;
-    margin-top: 300;
-   }
-   
-   .sammy:hover{
-     background-color: rgb(88,233,117);
-     color: white;
-   }
-      
-   }
-</style>
-
-<script>
-  function hisammy(){
-        alert('hi ms wadey :)');
-  }
-</script>
-
-<button class="sammy" onclick="hisammy()">
-  Press if you are my computer science teacher
-</button>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chess</title>
+    <link rel="stylesheet" href="css/chessboard-1.0.0.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/chessboard-1.0.0.min.js"></script>
+  </head>
+  <body>
+    <div id="board1" style="width: 400px"></div>
+    <script>
+        var board1 = ChessBoard('board1', 'start');
+    </script>
+  </body>
+</html>
